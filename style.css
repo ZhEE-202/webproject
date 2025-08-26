@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.calc{
+    margin: 0 auto;
+    width: 400px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    /* border: 0; */
+    outline: none;
+    padding: 15px 10px 0px;
+}
+.clicks{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+button{
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 60px;
+    transition: background 0.9 ease;
+    
+}
+button:hover{
+    background-color: blueviolet;
+    
+}
+.lastbut{
+    /* width: 100%; */
+    flex-grow: 0.8;
+}
